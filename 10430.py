@@ -1,0 +1,8 @@
+stringValue = input().split()
+num1 = int(stringValue[0])
+num2 = int(stringValue[1])
+num3 = int(stringValue[2])
+print((num1 + num2) % num3)
+print((num1 % num3 + num2 % num3) % num3)
+print(num1 * num2 % num3)
+print((num1 % num3 * num2 % num3) % num3)
